@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd6c7da2a06f3349afc1eb9e5f1cffd, type: 3}
+  m_Name: B
+  m_EditorClassIdentifier: 
+  storyText: 'As you walk down the path, the whispers grow louder. Suddenly, shadowy
+    figures surround you.
+
+
+    1. Run back to where you started.
+
+    2. Speak to the figures.'
+  nextStates:
+  - {fileID: 11400000, guid: 62b8d81ae21ea7c4a9977b6e5c08af18, type: 2}
+  - {fileID: 11400000, guid: 57f498238c610534dbe22fabe1364b67, type: 2}

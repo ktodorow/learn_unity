@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd6c7da2a06f3349afc1eb9e5f1cffd, type: 3}
+  m_Name: A.Introduction State
+  m_EditorClassIdentifier: 
+  storyText: "You wake up in a dark, unfamiliar forest. The air is thick with fog,
+    and distant whispers echo through the trees. Your head throbs, and you have no
+    memory of how you got here.\r\n\r\nAs you sit up, you notice three things:\r\n\r\nA
+    flickering lantern on the ground.\r\nA narrow dirt path leading deeper into the
+    forest.\r\nA wooden door standing alone without any walls around it.\n\nWhat do
+    you do? \n1. Pick up the lantern\n2. Walk down the dirt path\n3. Open the mysterious
+    door"
+  nextStates:
+  - {fileID: 11400000, guid: 62b8d81ae21ea7c4a9977b6e5c08af18, type: 2}
+  - {fileID: 11400000, guid: 7e0c2dc242a59904fba0590f96c6370c, type: 2}
+  - {fileID: 11400000, guid: 8f8bd661d62d7d74589232e9b4e39541, type: 2}

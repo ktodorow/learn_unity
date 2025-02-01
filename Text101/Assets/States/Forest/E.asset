@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd6c7da2a06f3349afc1eb9e5f1cffd, type: 3}
+  m_Name: E
+  m_EditorClassIdentifier: 
+  storyText: 'You step through the portal and find yourself in a grand hall with two
+    doors. A figure in a hood stands before you.
+
+
+    1. Enter the golden door.
+
+    2. Enter the dark door.'
+  nextStates:
+  - {fileID: 11400000, guid: 9b6d5511ca3ec4043bca1ba990770c59, type: 2}
+  - {fileID: 11400000, guid: f37c53099c267c341862f9c168da91b3, type: 2}
